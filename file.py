@@ -10,7 +10,7 @@ classifier = load_model("./model.h5")
 class_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
 
 # Load the image you want to predict
-image_path = "./fear.jpeg"
+image_path = "./suprise.jpeg"
 frame = cv2.imread(image_path)
 #cv2.imshow("image",frame)
 gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
