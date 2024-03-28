@@ -3,4 +3,3 @@ numpy
 opencv_contrib_python
 opencv_python
 tensorflow
-tensorflow_intel
